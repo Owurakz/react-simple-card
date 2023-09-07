@@ -1,0 +1,41 @@
+.Body {
+  margin: 15px;
+  border-style: solid;
+  border-color: rgb(255, 115, 0);
+  display: flex;
+  flex-direction: row;
+}
+
+.titleBox,
+.description {
+  border-style: solid;
+  border-color: coral;
+  height: 60px;
+  color: aqua;
+  margin-top: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  border-style: solid;
+  border-color: grey;
+  height: 170px;
+  padding-left: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  border-style: solid;
+  border-color: blueviolet;
+  margin: 5px;
+}
